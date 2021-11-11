@@ -17,6 +17,35 @@ body {
 .carrent {
   color: var(--accent-color);
 }
+button {
+  cursor: pointer;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* ---------------container---------------------------------- */
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* ------------------------------header----------------------------------------------------------------------- */
 /* Логотип */
 
