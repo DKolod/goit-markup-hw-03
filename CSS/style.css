@@ -51,10 +51,10 @@ img {
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .header-logo {
-  margin-right: 93px;
+  margin-right: 93px;S
 }
 .header-navigation {
   display: flex;
