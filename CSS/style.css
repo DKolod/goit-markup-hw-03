@@ -161,13 +161,16 @@ img {
   border-radius: 4px;
 }
 /* Текст */
+.info {
+  padding: 94px 0;
+}
 
 .info-list {
   display: flex;
-  padding: 94px 0;
 }
 .info-item {
   margin-right: 30px;
+  width: 270px;
 }
 .info-item:last-child {
   margin-right: 0px;
@@ -189,12 +192,14 @@ img {
   color: var(--second-title-color);
 }
 /* Чем мы занимаемся + наша команда */
+.skils {
+  padding-bottom: 94px;
+}
 
 .skils-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  padding-bottom: 94px;
 }
 .skils-item {
   flex-basis: calc(100% / 3-30px) / 3;
@@ -202,6 +207,8 @@ img {
 }
 .team {
   background: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-list {
   display: flex;
@@ -216,10 +223,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
-  padding: 94px 0 50px 0;
-}
-.skils-title {
-  margin-bottom: 50px;
+  padding: 0 0 50px 0;
 }
 .team-item {
   flex-basis: calc(100%-4 * 30px) / 4;
@@ -242,10 +246,11 @@ img {
 }
 .team-secont-title {
   margin-bottom: 10px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
-.team-text {
-  padding-bottom: 124px;
+.team-item-container {
+  padding: 30px 0;
+  text-align: center;
 }
 
 /* ---------------------------------footer-------------------------------------------------- */
@@ -276,7 +281,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--third-text-color);
   font-style: normal;
-  padding-top: 11px;
+  margin-top: 29px;
   display: block;
 }
 .adress-mail,
@@ -290,11 +295,15 @@ img {
 /* ------------------------------second page------------------------------------------------------------ */
 /* Список фильтров */
 
+.filter {
+  padding-top: 94px;
+  padding-bottom: 86px;
+}
+
 .filter-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  padding-top: 94px;
   margin-right: 0px;
 }
 .filter-item:not(:last-child) {
@@ -322,14 +331,14 @@ img {
 }
 /* projects */
 
-.projects-link > h3 {
+.projects-item-container > h3 {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-title-color);
 }
-.projects-link > p {
+.projects-item-container > p {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -341,16 +350,15 @@ img {
   margin-left: -30px;
   margin-bottom: -30px;
 }
-p.projects-text,
-h3.prajects-title {
-  margin: 20px 24px;
+.projects-item-container {
+  padding: 20px 24px;
+}
+.prajects-title {
+  margin-bottom: 20px;
 }
 
 .projects-item {
-  flex-basis: calc(100% / 3-30px) / 3;
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
-}
-.portfolio-conteiner {
-  padding-bottom: 114px;
 }
